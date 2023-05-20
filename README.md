@@ -14,6 +14,8 @@ This is 4 mecanum wheel robot simulating in Gazebo for [Robocon2023 Simulating S
 
 4.Run ```colcon build``` or ```colcon build --packages-select abu2023_simulating_robot``` if your workspace has many packages and you only want to build this package.
 
+5.In your root workspace , go inside  ```install/abu2023_simulating_robot/lib```. If there is no ```abu2023_simulating_robot``` directory, create it,then copy ```getpos.py``` ```controller.py``` from ```install/abu2023_simulating_robot/bin``` and paste under ```abu2023_simulating_robot```.
+
 # How to use/run package
 1.Open up your workspace in terminal.
 
