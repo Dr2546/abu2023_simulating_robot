@@ -20,8 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-         'getpos = my_gazebo.getpos:main',
-         'controller = my_gazebo.controller:main'
+         'getpos = abu2023_simulating_robot.getpos:main',
+         'controller = abu2023_simulating_robot.controller:main',
+         'joyconverter = abu2023_simulating_robot.joyconverter:main'
         ],
     },
 )
