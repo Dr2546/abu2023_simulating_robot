@@ -25,9 +25,15 @@ This is 4 mecanum wheel robot simulating in Gazebo for [Robocon2023 Simulating S
 
 ## Controlling Robot
 
+### Use keyboard
+
 controller node is for controlling robot with a joystick that create for this only so I will not talk about it,so alternative way is use ```teleop_twist_keyboard```
 
-1.With Gazebo is running , run ```ros2 run teleop_twist_keyboard teleop_twist_keyboard``` in another terminal.
+### Use Joystick
+
+as now the only joystick that can control this robot is Logitech Extreme 3d pro
+
+1.With Gazebo is running , run ```ros2 run abu2023_simulating_robot joy_launch.py``` in another terminal.
 
 ## Position between Robot and Pole
 
